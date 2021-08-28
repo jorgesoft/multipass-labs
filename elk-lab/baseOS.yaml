@@ -1,0 +1,7 @@
+#cloud-config
+ssh_pwauth: True ## This line enables ssh password authentication
+system_info:
+  default_user:
+    name: jorges
+    plain_text_passwd: 'ubuntu'
+    home: '/home/jorge'
